@@ -68,7 +68,7 @@ const TermsPrivacyPage = () => {
             <p className="text-stone-600 mb-6">
               If you have any questions about this Privacy Policy, please contact us at:
               <br />
-              Email: info@edenseniors.com
+              Email: info@edenwellnesshospitality.com
               <br />
               Phone: +91-7533909333
               <br />

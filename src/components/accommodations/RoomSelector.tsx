@@ -181,11 +181,11 @@ const RoomTypeSelector = ({ onSelect }: RoomTypeSelectorProps) => {
         <div className=" customflex  mb-6">
           <Leaf className="w-8 h-8 text-eden mr-3" />
           <h2 className="font-serif font-bold text-stone-800 text-5xl">
-            Pick Your Apartment
+            Pick Your Room/Suite
           </h2>
         </div>
         <p className="text-stone-600 text-lg font-light">
-          Browse our studio, 1BHK, and 2BHK Apartments to match your needs
+          Browse our Eden Haven, Eden Residence, and Eden Grand Apartments to match your needs
         </p>
       </div>
 

@@ -11,7 +11,7 @@ const FAQ: React.FC = () => {
     {
       question: "What is Eden Wellness & Hospitality?",
       answer:
-        "Eden Wellness & Hospitality offers premium, wellness-oriented stays designed especially for seniors and their families. Located in the serene hills of Dehradun, Eden provides fully furnished Studio, 1BHK, and 2BHK apartments with access to amenities like a spa, yoga, gym, jacuzzi, and medical services.",
+        "Eden Wellness & Hospitality offers premium, wellness-oriented stays designed especially for seniors and their families. Located in the serene hills of Dehradun, Eden provides fully furnished Eden Haven, Eden Residence, and Eden Grand apartments with access to amenities like a spa, yoga, gym, jacuzzi, and medical services.",
     },
     {
       question: "Who can book a stay at Eden?",
@@ -27,20 +27,20 @@ const FAQ: React.FC = () => {
             <li className="flex items-start">
               <span className="w-2 h-2 bg-eden rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
-                <strong>Studio Apartments</strong> – Ideal for solo guests or
+                <strong>Eden Haven</strong> – Ideal for solo guests or
                 couples
               </span>
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-eden rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
-                <strong>1BHK Units</strong> – Great for short- to mid-term stays
+                <strong>Eden Residence</strong> – Great for short- to mid-term stays
               </span>
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-eden rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span>
-                <strong>2BHK Suites</strong> – Perfect for families or guests
+                <strong>Eden Grand</strong> – Perfect for families or guests
                 needing more space
               </span>
             </li>

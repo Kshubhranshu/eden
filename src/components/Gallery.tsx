@@ -28,15 +28,15 @@ const Gallery: React.FC = () => {
     },
     {
       src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Gallery/Copy%20of%20_DSC6739-Color-Grade.jpg?updatedAt=1749653848244",
-      alt: "Studio apartment",
+      alt: "Eden Haven",
     },
     {
       src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Gallery/Copy%20of%20_DSC1837-Color-Grade.jpg?updatedAt=1749653848079",
-      alt: "1BHK apartment",
+      alt: "Eden Residence ",
     },
     {
       src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Gallery/Copy%20of%20_DSC1494-Color-Grade.jpg?updatedAt=1749653847756",
-      alt: "2BHK apartment",
+      alt: "Eden Grand",
     },
     {
       src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Gallery/Copy%20of%20_DSC1619-Color-Grade.jpg?updatedAt=1749653846941",

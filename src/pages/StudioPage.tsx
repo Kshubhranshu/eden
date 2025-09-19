@@ -48,7 +48,7 @@ const StudioPage = () => {
       image:
         "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Accommodations/Studio%20Appartment/Hamilton/_DSC1548-Color-Grade.jpg?updatedAt=1749656376442",
       description:
-        "Positioned on higher floors, Hamilton studio apartments offer expansive views along with refined privacy. These premium residences are perfect for guests seeking a tranquil yet connected experience. With spacious layouts and curated interiors, Hamilton provides a sophisticated retreat for longer or more peaceful stays.",
+        "Positioned on higher floors, Eden Haven(studio apartments) offer expansive views along with refined privacy. These premium residences are perfect for guests seeking a tranquil yet connected experience. With spacious layouts and curated interiors, Hamilton provides a sophisticated retreat for longer or more peaceful stays.",
       features: [
         "Fully Furnished Apartment",
         "Air Conditioning (Hot & Cold)",

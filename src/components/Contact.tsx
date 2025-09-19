@@ -227,9 +227,9 @@ const Contact: React.FC = () => {
                         <SelectValue placeholder="Select room type" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="studio">Studio Apartment</SelectItem>
-                        <SelectItem value="1bhk">1BHK Apartment</SelectItem>
-                        <SelectItem value="2bhk">2BHK Apartment</SelectItem>
+                        <SelectItem value="studio">Eden Haven</SelectItem>
+                        <SelectItem value="1bhk">Eden Residence</SelectItem>
+                        <SelectItem value="2bhk">Eden Grand</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -319,18 +319,11 @@ const Contact: React.FC = () => {
                   content={
                     <div className="space-y-1">
                       <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=info@edenseniors.com"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=info@edenwellnesshospitality.com"
                         target="_blank"
                         className="hover:text-eden block"
                       >
-                        info@edenseniors.com
-                      </a>
-                      <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=sales@edenseniors.com"
-                        target="_blank"
-                        className="hover:text-eden block"
-                      >
-                        sales@edenseniors.com
+                        info@edenwellnesshospitality.com
                       </a>
                     </div>
                   }
