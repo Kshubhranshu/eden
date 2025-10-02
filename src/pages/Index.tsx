@@ -27,9 +27,6 @@ const Index = () => {
     let { data: Contact, error } = await supabase
     .from('Contact Us')
     .select('id')
-    // console.log("Contact");
-    // console.log(Contact);
-    
   }
 
 

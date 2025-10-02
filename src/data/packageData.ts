@@ -7,7 +7,9 @@ export const roomTypes: RoomType[] = [
         image: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Accommodations/sTUDIO%20Cover.jpg?updatedAt=1749654353949",
         size: "400-500 sq ft",
         guests: 1,
-        startingPrice: 5900,
+        startingPrice: 6499,
+        originalPrice: 9000,
+        roomsLeft: 1,
         description:
             "Cozy Eden Haven(studio apartment) perfect for solo travelers seeking comfort and wellness",
         amenities: ["WiFi", "Kitchenette", "Balcony", "Air Conditioning"],
@@ -18,7 +20,9 @@ export const roomTypes: RoomType[] = [
         image: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Accommodations/1BHK.jpg?updatedAt=1749654353195",
         size: "600-800 sq ft",
         guests: 2,
-        startingPrice: 8000,
+        startingPrice: 8999,
+        roomsLeft: 1,
+        originalPrice: 11000,
         description:
             "Spacious one-bedroom apartment ideal for couples or individuals",
         amenities: [
@@ -35,7 +39,9 @@ export const roomTypes: RoomType[] = [
         image: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Accommodations/2BHK.jpg?updatedAt=1749654353873",
         size: "900-1200 sq ft",
         guests: 4,
-        startingPrice: 11000,
+        startingPrice: 18000,
+        originalPrice: 12999,
+        roomsLeft: 2,
         description: "Premium two-bedroom apartment perfect for families",
         amenities: [
             "WiFi",
@@ -52,6 +58,7 @@ export const roomTypes: RoomType[] = [
         size: "1200-1600 sq ft",
         guests: 6,
         startingPrice: 50000,
+        originalPrice: 50000,
         description:
             "Luxurious three-bedroom apartment for large families or groups",
         amenities: [
@@ -62,6 +69,7 @@ export const roomTypes: RoomType[] = [
             "Air Conditioning",
             "Study Room",
         ],
+        roomsLeft: 1,
     },
 ];
 

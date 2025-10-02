@@ -254,31 +254,45 @@ const RoomTypeSelector = ({ onSelect }: RoomTypeSelectorProps) => {
               </CardHeader>
 
               <CardContent className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-2 text-stone-600">
-                    <Users className="w-5 h-5 text-eden" />
-                    <span className="font-medium">{roomData.guests}</span>
-                  </div>
-                  <div className="text-right">
-                    <p className="text-sm text-stone-500 font-medium">
-                      Starting from
-                    </p>
-                    <p className="text-3xl font-serif font-bold text-emerald-700">
-                      ₹{roomType.startingPrice.toLocaleString()}
-                    </p>
-                    <p className="text-sm text-stone-500">per night</p>
-                  </div>
-                </div>
+  <div className="flex items-center justify-between">
+    <div className="flex items-center space-x-2 text-stone-600">
+      <Users className="w-5 h-5 text-eden" />
+      <span className="font-medium">{roomData.guests}</span>
+    </div>
 
-                <div className="flex justify-center">
-                  <Button
-                    className="w-full bg-eden hover:bg-emerald-700 text-white border-0 py-6 text-lg font-medium transition-all duration-300 rounded-xl"
-                    onClick={() => handleKnowMore(roomType)}
-                  >
-                    Know More
-                  </Button>
-                </div>
-              </CardContent>
+    <div className="text-right">
+      <p className="text-sm text-stone-500 font-medium">Starting from</p>
+
+      {/* Original Price with strike-through */}
+      <p className="text-lg text-stone-400 line-through">
+        ₹{roomType.originalPrice.toLocaleString()}
+      </p>
+
+      {/* Discounted Price */}
+      <p className="text-3xl font-serif font-bold text-emerald-700">
+        ₹{roomType.startingPrice.toLocaleString()}
+      </p>
+
+      <p className="text-sm text-stone-500">per night</p>
+    </div>
+  </div>
+
+  {/* Rooms left info */}
+  <div className="text-center">
+    <p className="text-sm font-semibold text-red-600">
+      {roomType.roomsLeft} room{roomType.roomsLeft > 1 ? "s" : ""} left
+    </p>
+  </div>
+
+  <div className="flex justify-center">
+    <Button
+      className="w-full bg-eden hover:bg-emerald-700 text-white border-0 py-6 text-lg font-medium transition-all duration-300 rounded-xl"
+      onClick={() => handleKnowMore(roomType)}
+    >
+      Know More
+    </Button>
+  </div>
+</CardContent>
             </Card>
           );
         })}
