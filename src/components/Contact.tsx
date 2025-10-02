@@ -28,8 +28,8 @@ const center = {
 
 // Create a single supabase client for interacting with your database
 const supabase = createClient(
-  "https://pcrleaefqjoijrhydhis.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjcmxlYWVmcWpvaWpyaHlkaGlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkyMTEyNzQsImV4cCI6MjA2NDc4NzI3NH0.YAU_W5cL1Y1xLJpoOCnQYGYdH4IFxwa-vOvku8l1_zU"
+  "https://hergnmduadrsnvzgrtpe.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhlcmdubWR1YWRyc252emdydHBlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg3MzkxNzYsImV4cCI6MjA3NDMxNTE3Nn0.LvjBLedk7eQvgGCyp7VekiyR07K1O15SM-Tf1JLFMwA"
 );
 
 const ContactInfo: React.FC<{
@@ -67,50 +67,17 @@ const Contact: React.FC = () => {
     }
     setErrorMsg("");
 
-    //   const { data, error } = await supabase
-    //     .from("Contact Us")
-    //     .insert([
-    //       {
-    //         name: Name,
-    //         email: Email,
-    //         message: Message,
-    //         phone: phone,
-    //         room_type: roomType,
-    //         duration: duration,
-    //       },
-    //     ])
-    //     .select();
-
-    //   if (error) {
-    //     alert(error.message);
-    //   } else {
-    //     console.log(data);
-    //     setIsSubmitted(true);
-    //     setName("");
-    //     setEmail("");
-    //     setMessage("");
-    //     setPhone("");
-    //     setRoomType("");
-    //     setDuration("");
-    //     window.open("/thank-you", "_blank");
-    //   }
-    //   // setTimeout(() => {
-
-    //   // }, 1000);
-    //   // Reset success message after 5 seconds
-    //   setTimeout(() => setIsSubmitted(false), 5000);
-    // };
-
     const { data, error } = await supabase
-      .from("Contact Us")
+      .from("eden-wellness")
       .insert([
         {
           name: Name,
-          email: Email,
-          message: Message,
-          phone: phone,
-          room_type: roomType,
-          duration: duration,
+          email: Email || null,
+          message: Message || null,
+          phone: phone ,
+          room_type: roomType || null,
+          duration: duration || null,
+          source: window?.location?.href
         },
       ])
       .select();
