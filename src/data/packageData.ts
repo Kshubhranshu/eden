@@ -39,8 +39,8 @@ export const roomTypes: RoomType[] = [
         image: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Accommodations/2BHK.jpg?updatedAt=1749654353873",
         size: "900-1200 sq ft",
         guests: 4,
-        startingPrice: 18000,
-        originalPrice: 12999,
+        startingPrice: 12999,
+        originalPrice: 18000,
         roomsLeft: 2,
         description: "Premium two-bedroom apartment perfect for families",
         amenities: [
