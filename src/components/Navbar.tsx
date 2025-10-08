@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -93,12 +94,19 @@ const Navbar: React.FC = () => {
           >
             FAQs
           </button>
+
           <a
             href="/gallery"
             className="text-eden-text hover:text-eden transition-colors"
           >
             Gallery
           </a>
+
+          {/* 🌟 Highlighted Blog Button */}
+          <a href="https://edenwellnesshospitality.blogspot.com/" className="text-eden-text hover:text-eden" target="_blank">
+              Blog
+          </a>
+
           <a href="/#contact">
             <Button
               variant="outline"
@@ -145,12 +153,14 @@ const Navbar: React.FC = () => {
               >
                 About
               </a>
+
               <button
                 onClick={() => scrollToSection("choose-your-sanctuary")}
                 className="text-eden-text hover:text-eden py-2 px-4 text-left bg-transparent border-none cursor-pointer"
               >
                 Accommodations
               </button>
+
               <a
                 href="/#amenities"
                 className="text-eden-text hover:text-eden py-2 px-4"
@@ -158,12 +168,14 @@ const Navbar: React.FC = () => {
               >
                 Amenities
               </a>
+
               <button
                 onClick={() => scrollToSection("faq")}
                 className="text-eden-text hover:text-eden py-2 px-4 text-left bg-transparent border-none cursor-pointer"
               >
                 FAQs
               </button>
+
               <a
                 href="/gallery"
                 className="text-eden-text hover:text-eden py-2 px-4"
@@ -171,6 +183,16 @@ const Navbar: React.FC = () => {
               >
                 Gallery
               </a>
+
+              {/* 🌟 Highlighted Blog Button in Mobile */}
+              <a
+                href="https://edenwellnesshospitality.blogspot.com/" target="_blank"
+                className="py-2 px-4 text-eden-text hover:text-eden"
+                onClick={toggleMobileMenu}
+              >
+                  Blog
+              </a>
+
               <a
                 href="/#contact"
                 className="py-2 px-4"
