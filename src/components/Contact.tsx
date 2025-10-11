@@ -15,6 +15,8 @@ import { MapPin, Phone, Mail } from "lucide-react";
 import "@/Styles/Contact.css";
 import { createClient } from "@supabase/supabase-js";
 import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
+import { pushToDataLayer } from "@/lib/utils";
+
 
 const containerStyle = {
   width: "400px",
@@ -85,6 +87,7 @@ const Contact: React.FC = () => {
     if (error) {
       setErrorMsg(error.message);
     } else {
+      pushToDataLayer("contact_us", { button_location: "lead-successful" });
       setIsSubmitted(true);
       setName("");
       setEmail("");

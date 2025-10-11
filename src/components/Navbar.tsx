@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { pushToDataLayer } from "@/lib/utils";
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -109,6 +110,7 @@ const Navbar: React.FC = () => {
 
           <a href="/#contact">
             <Button
+              onClick={() => pushToDataLayer("contact_us", { button_location: "navbar" })}
               variant="outline"
               className="border-eden text-eden hover:bg-eden hover:text-white"
             >
@@ -198,7 +200,7 @@ const Navbar: React.FC = () => {
                 className="py-2 px-4"
                 onClick={toggleMobileMenu}
               >
-                <Button className="bg-eden text-white w-full">
+                <Button className="bg-eden text-white w-full" onClick={() => pushToDataLayer("contact_us", { button_location: "navbar-mobile" })}>
                   Contact Us
                 </Button>
               </a>

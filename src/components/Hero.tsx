@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { pushToDataLayer } from "@/lib/utils";
+
 const Hero: React.FC = () => {
   function scrollTOBottom(sectionId: string) {
     const element = document.getElementById(sectionId);
@@ -34,7 +36,7 @@ const Hero: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in">
             <a href="/#contact">
-              <Button className="btn-primary">Book Now</Button>
+              <Button className="btn-primary" onClick={() => pushToDataLayer("contact_us", { button_location: "hero-book-now" })}>Book Now</Button>
             </a>
             <a href="/#choose-your-sanctuary">
               <Button variant="outline" className="btn-secondary">
