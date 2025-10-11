@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
     if (error) {
       setErrorMsg(error.message);
     } else {
-      pushToDataLayer("contact_us", { button_location: "lead-successful" });
+      pushToDataLayer("contact_button_click", { button_location: "lead-successful" });
       setIsSubmitted(true);
       setName("");
       setEmail("");

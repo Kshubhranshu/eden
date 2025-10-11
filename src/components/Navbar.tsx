@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
 
           <a href="/#contact">
             <Button
-              onClick={() => pushToDataLayer("contact_us", { button_location: "navbar" })}
+              onClick={() => pushToDataLayer("contact_button_click", { button_location: "navbar" })}
               variant="outline"
               className="border-eden text-eden hover:bg-eden hover:text-white"
             >
@@ -200,7 +200,7 @@ const Navbar: React.FC = () => {
                 className="py-2 px-4"
                 onClick={toggleMobileMenu}
               >
-                <Button className="bg-eden text-white w-full" onClick={() => pushToDataLayer("contact_us", { button_location: "navbar-mobile" })}>
+                <Button className="bg-eden text-white w-full" onClick={() => pushToDataLayer("contact_button_click", { button_location: "navbar-mobile" })}>
                   Contact Us
                 </Button>
               </a>

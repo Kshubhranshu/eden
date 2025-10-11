@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in">
             <a href="/#contact">
-              <Button className="btn-primary" onClick={() => pushToDataLayer("contact_us", { button_location: "hero-book-now" })}>Book Now</Button>
+              <Button className="btn-primary" onClick={() => pushToDataLayer("contact_button_click", { button_location: "hero-book-now" })}>Book Now</Button>
             </a>
             <a href="/#choose-your-sanctuary">
               <Button variant="outline" className="btn-secondary">
