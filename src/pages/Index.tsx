@@ -11,6 +11,7 @@ import Gallery from '@/components/Gallery';
 import Contact from '@/components/Contact';
 import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
+import Experiences from "@/components/Experiences"
 
 import { createClient } from "@supabase/supabase-js";
 
@@ -48,6 +49,7 @@ const Index = () => {
         <Hero />
         <About />
         <Accommodations />
+        <Experiences />
         <Amenities />
         <WhyChoose />
         <Testimonials />

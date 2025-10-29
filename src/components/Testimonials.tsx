@@ -35,7 +35,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ review }) => {
             "{review.text}"
           </p>
           <a
-            href={review.author_url}
+            href={review?.author_url}
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center hover:underline text-eden-dark text-sm hover:text-eden hover:font-semibold"

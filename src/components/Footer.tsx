@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
                   href="#accommodations"
                   className="text-eden-light/90 hover:text-white transition-colors"
                 >
-                  Accommodations
+                  Explore Rooms
                 </a>
               </li>
               <li>

@@ -14,6 +14,9 @@ const Gallery: React.FC = () => {
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
   const galleryImages = [
+    {src: "https://res.cloudinary.com/dontocypb/image/upload/v1761715519/bca30c7b-e4b8-4a80-b214-dcdfd59febd1.png", alt: "Eden roof top view"},
+    {src: "https://res.cloudinary.com/dontocypb/image/upload/v1761715963/WhatsApp_Image_2025-10-28_at_5.22.13_PM_ujoou6.jpg", alt: "Eden garden view"},
+    
     {
       src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Gallery/Copy%20of%20_DSC6747.jpg?updatedAt=1749653848561",
       alt: "Garden pathway at Eden",

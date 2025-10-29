@@ -80,7 +80,7 @@ const Navbar: React.FC = () => {
             onClick={() => scrollToSection("choose-your-sanctuary")}
             className="text-eden-text hover:text-eden transition-colors bg-transparent border-none cursor-pointer"
           >
-            Accommodations
+            Explore Rooms
           </button>
           <button
             onClick={() => scrollToSection("amenities")}
@@ -160,7 +160,7 @@ const Navbar: React.FC = () => {
                 onClick={() => scrollToSection("choose-your-sanctuary")}
                 className="text-eden-text hover:text-eden py-2 px-4 text-left bg-transparent border-none cursor-pointer"
               >
-                Accommodations
+                Explore Rooms
               </button>
 
               <a

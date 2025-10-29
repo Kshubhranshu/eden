@@ -3,24 +3,23 @@ import { CheckCircle } from "lucide-react";
 const WhyChoose: React.FC = () => {
   const reasons = [
     {
-      title: "Flexible Stays, Simple Comfort",
-      description:
-        "Eden welcomes you with peaceful, fully serviced apartments with flexible stay options.",
+      title: "Tailored Experiences for Every Traveler",
+      description: "Whether you're a family, couple, solo explorer, or wellness enthusiast, Eden offers personalized services and curated experiences to meet your unique travel goals."
     },
     {
-      title: "Community That Fits You",
+      title: "Prime Location in Dehradun Valley",
       description:
-        "Eden offers a gentle, welcoming community, Whether you prefer peaceful hours in your apartment or lounge with others.",
+        "Eden's idyllic location provides easy access to popular Himalayan towns while offering serene, private luxury away from the bustle.",
     },
     {
-      title: "Comfort Backed by Care",
+      title: "Sustainable Luxury with “Fresh from Farm” Dining",
       description:
-        "Live confidently, knowing that thoughtful care and healthcare support are always on call.",
+        "Our commitment to sustainability means every meal is crafted from fresh, organic ingredients sourced locally, reflecting our dedication to health and the environment.",
     },
     {
-      title: "Trusted by Families, Chosen by Seniors",
+      title: "Comprehensive Hospitality Services",
       description:
-        "Families trust Eden as it offers security, thoughtful care, and a beautiful place to thrive.",
+        "Enjoy seamless concierge assistance, meticulous housekeeping, and 24/7 medical support ensuring a worry-free stay.",
     },
   ];
   return (
@@ -28,20 +27,26 @@ const WhyChoose: React.FC = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
-            <div className="rounded-lg overflow-hidden shadow-xl">
-              <img
-                src="https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Why-(1).jpg?updatedAt=1749654846727"
-                alt="Eden Wellness & Hospitality"
-                className="w-full h-full object-cover"
-              />
-            </div>
+<div className="rounded-2xl overflow-hidden shadow-xl">
+  <video
+    className="w-full h-[250px] md:h-[400px] object-cover"
+    src="https://res.cloudinary.com/dontocypb/video/upload/v1761720952/WhatsApp_Video_2025-10-28_at_5.22.48_PM_nqhlaw.mp4"
+    playsInline
+    autoPlay
+    muted
+    loop
+    preload="metadata"
+  />
+</div>
+
+
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-eden-accent/30 rounded-lg -z-10"></div>
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-eden-light rounded-lg -z-10"></div>
           </div>
 
           <div>
             <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-4 text-eden-dark">
-              Why Choose Eden?
+              Why Choose Eden Wellness Hospitality for Your Next Getaway?
             </h2>
             <div className="w-20 h-1 bg-eden mb-6"></div>
 
