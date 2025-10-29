@@ -112,6 +112,7 @@ const Testimonials = () => {
         className="w-full h-[260px] md:h-[360px] object-cover"
         controls
         preload="metadata"
+        poster="https://res.cloudinary.com/dontocypb/image/upload/v1761727565/0003_eoiwuc.jpg"
       />
     </div>
   </div>
