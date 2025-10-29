@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import GoogleLogo from "../images/Google__G__logo.svg.png";
 
 interface GoogleReview {
+  author_url: string;
   author_name: string;
   profile_photo_url: string;
   rating: number;
@@ -91,31 +92,33 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="section-padding bg-eden-beige/30">
-      <div className="container-custom">
-        <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-4 text-eden-dark">
-            Guest Stories
-          </h2>
-          <div className="w-20 h-1 bg-eden mx-auto mb-6"></div>
-          <p className="text-eden-text">
-            Hear from families and guests who have experienced the warmth and
-            care at Eden Wellness and Hospitality.
-          </p>
-        </div>
+  <section className="section-padding bg-eden-beige/30">
+  <div className="container-custom text-center">
+     <div className="max-w-3xl mx-auto text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-4 text-eden-dark">
+        Guest Stories
+      </h2>
+      <div className="w-20 h-1 bg-eden mx-auto mb-6"></div>
+      <p className="text-eden-text">
+        Hear from families and guests who have experienced the warmth and care
+        at Eden Wellness and Hospitality.
+      </p>
+    </div>
 
-        {testimonials.length > 0 ? (
-          <Carousel responsive={responsive}>
-            {testimonials.map((review, index) => (
-              <TestimonialCard key={index} review={review} />
-            ))}
-          </Carousel>
-        ) : (
-          <div className="text-center text-eden-text">Loading reviews...</div>
-        )}
-      </div>
-    </section>
+    {/* 🎥 Simple Video Card */}
+    <div className="max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-lg border border-eden-light/30">
+      <video
+        src="https://res.cloudinary.com/dontocypb/video/upload/v1761725594/WhatsApp_Video_2025-10-29_at_1.42.39_PM_mtm68o.mp4"
+        className="w-full h-[260px] md:h-[360px] object-cover"
+        controls
+        preload="metadata"
+      />
+    </div>
+  </div>
+</section>
   );
+
+
 };
 
 export default Testimonials;
