@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
           name: Name,
           email: Email || null,
           message: Message || null,
-          phone: phone ,
+          phone: phone,
           room_type: roomType || null,
           duration: duration || null,
           source: window?.location?.href
@@ -213,10 +213,10 @@ const Contact: React.FC = () => {
                         <SelectValue placeholder="Select duration" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="1week">1 Week</SelectItem>
-                        <SelectItem value="2weeks">2 Weeks</SelectItem>
-                        <SelectItem value="3weeks">3 Weeks</SelectItem>
-                        <SelectItem value="4weeks">4 Weeks</SelectItem>
+                        <SelectItem value="1week">1 Night</SelectItem>
+                        <SelectItem value="2weeks">2 Night</SelectItem>
+                        <SelectItem value="3weeks">3 Night</SelectItem>
+                        <SelectItem value="4weeks">1 Week</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
