@@ -269,9 +269,48 @@ const RoomTypeSelector = ({ onSelect }: RoomTypeSelectorProps) => {
       </p>
 
       {/* Discounted Price */}
-      <p className="text-3xl font-serif font-bold text-emerald-700">
-        ₹{roomType.startingPrice.toLocaleString()}
-      </p>
+{(() => {
+  const today = new Date();
+  const day = today.getDay(); // 0 = Sunday, 6 = Saturday
+  const isWeekday = day >= 1 && day <= 5;
+
+  return (
+    <div className="mt-3 space-y-2">
+      {/* Pricing based on weekday/weekend */}
+      {isWeekday && roomType?.weekdayPrice ? (
+        <div className="flex flex-col space-y-1">
+          {roomType?.weekdayPrice?.withoutBreakfast && (
+            <div>
+              <p className="text-2xl font-serif font-bold text-emerald-700">
+                ₹{roomType.weekdayPrice.withoutBreakfast.toLocaleString()}
+              </p>
+              <p className="text-sm text-gray-600">+ taxes (without breakfast)</p>
+            </div>
+          )}
+
+          {roomType?.weekdayPrice?.withBreakfast && (
+            <div>
+              <p className="text-2xl font-serif font-bold text-emerald-700">
+                ₹{roomType.weekdayPrice.withBreakfast.toLocaleString()}
+              </p>
+              <p className="text-sm text-gray-600">+ taxes (with breakfast)</p>
+            </div>
+          )}
+
+        </div>
+      ) : (
+        <div className="flex flex-col space-y-1">
+          <p className="text-2xl font-serif font-bold text-emerald-700">
+            ₹{roomType?.startingPrice?.toLocaleString()}
+          </p>
+          <p className="text-sm text-gray-600">+ taxes (with breakfast)</p>
+        </div>
+      )}
+    </div>
+  );
+})()}
+
+
 
       <p className="text-sm text-stone-500">per night</p>
     </div>

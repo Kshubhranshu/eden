@@ -13,6 +13,10 @@ export const roomTypes: RoomType[] = [
         description:
             "Cozy Eden Haven(studio apartment) perfect for solo travelers seeking comfort and wellness",
         amenities: ["WiFi", "Kitchenette", "Balcony", "Air Conditioning"],
+        weekdayPrice: {
+            withoutBreakfast: 5000,
+            withBreakfast: 5500,
+        },
     },
     {
         id: "1bhk",
@@ -32,6 +36,10 @@ export const roomTypes: RoomType[] = [
             "Balcony",
             "Air Conditioning",
         ],
+        weekdayPrice: {
+            withoutBreakfast: 6500,
+            withBreakfast: 7000,
+        },
     },
     {
         id: "2bhk",
@@ -50,6 +58,10 @@ export const roomTypes: RoomType[] = [
             "Multiple Balconies",
             "Air Conditioning",
         ],
+        weekdayPrice: {
+            withoutBreakfast: 10000,
+            withBreakfast: 12000,
+        },
     },
     {
         id: "3bhk",
@@ -70,6 +82,7 @@ export const roomTypes: RoomType[] = [
             "Study Room",
         ],
         roomsLeft: 1,
+        weekdayPrice: {},
     },
 ];
 

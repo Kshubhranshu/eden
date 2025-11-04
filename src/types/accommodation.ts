@@ -11,6 +11,7 @@ export interface RoomType {
     amenities: string[];
     originalPrice: number;
     roomsLeft: number;
+    weekdayPrice: any;
 }
 
 export interface RoomCategory {
