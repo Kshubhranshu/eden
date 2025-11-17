@@ -56,7 +56,7 @@ const EdenExperiences: React.FC = () => {
       title: "Indulge in Holistic Wellness & Spa Treatments",
       description:
         "Rejuvenate your mind and body with our full-service Spa and Salon Packages, including traditional massages, rejuvenating facials, and expert-led daily yoga and meditation classes. Our wellness programs blend ancient practices with modern therapies for lasting well-being.",
-      img: "../../public/assets/eden-spa.jpg",
+      img: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-spa.jpg",
       button: "Book a Spa Session",
     },
     {
