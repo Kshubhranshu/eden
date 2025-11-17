@@ -56,14 +56,14 @@ const EdenExperiences: React.FC = () => {
       title: "Indulge in Holistic Wellness & Spa Treatments",
       description:
         "Rejuvenate your mind and body with our full-service Spa and Salon Packages, including traditional massages, rejuvenating facials, and expert-led daily yoga and meditation classes. Our wellness programs blend ancient practices with modern therapies for lasting well-being.",
-      img: "https://res.cloudinary.com/dontocypb/image/upload/v1761723481/_DSC1632_fe7emo.jpg",
+      img: "../../public/assets/eden-spa.jpg",
       button: "Book a Spa Session",
     },
     {
       title: "Savor Gourmet Delights at Nouvean Table Restaurant",
       description:
         "Experience farm-to-table cuisine curated by top chefs in our 9th-floor restaurant overlooking the majestic Himalayas. Our menu features global flavors crafted with locally sourced, sustainable ingredients for an unforgettable dining experience.",
-      img: "https://res.cloudinary.com/dontocypb/image/upload/v1761720479/735A5387_njawlg.jpg",
+      img: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-resturant?updatedAt=1763400287475",
       button: "Explore Menu",
       reverse: true,
     },
@@ -71,14 +71,14 @@ const EdenExperiences: React.FC = () => {
       title: "Relax and Socialize at The Nook Café & Community Spaces",
       description:
         "Unwind with artisanal coffee and fresh bakes in a cozy atmosphere designed for connection. The Nook Café is perfect for casual gatherings, creative brainstorming, or peaceful moments with a book.",
-      img: "https://res.cloudinary.com/dontocypb/image/upload/v1761722008/9c7ef6dc-e443-4ae7-82ca-4ca274e5f459_jkkrpb.jpg",
+      img: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-bakery-nook-cafe?updatedAt=1763400266284",
       button: "Visit The Nook Café",
     },
     {
       title: "Explore Outdoor Adventures & Curated Day Trips",
       description:
         "Embrace nature with guided trekking, river rafting, and cultural tours to nearby spiritual and scenic destinations including Mussoorie, Rishikesh, and Haridwar. Perfect for adventure seekers and wellness travelers alike.",
-      img: "https://res.cloudinary.com/dontocypb/image/upload/v1761723582/DJI_0690.00_00_18_07.Still009-Grade_exdvjv.jpg",
+      img: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-scenic-view?updatedAt=1763400310434",
       button: "Discover Experiences",
       reverse: true,
     },

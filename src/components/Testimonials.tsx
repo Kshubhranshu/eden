@@ -92,31 +92,70 @@ const Testimonials = () => {
   };
 
   return (
-  <section className="section-padding bg-eden-beige/30">
+<section className="section-padding bg-eden-beige/30">
   <div className="container-custom text-center">
-     <div className="max-w-3xl mx-auto text-center mb-12">
+    {/* Heading */}
+    <div className="max-w-3xl mx-auto text-center mb-12 px-4">
       <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-4 text-eden-dark">
         Guest Stories
       </h2>
       <div className="w-20 h-1 bg-eden mx-auto mb-6"></div>
-      <p className="text-eden-text">
+      <p className="text-eden-text text-base md:text-lg">
         Hear from families and guests who have experienced the warmth and care
         at Eden Wellness and Hospitality.
       </p>
     </div>
 
-    {/* 🎥 Simple Video Card */}
-    <div className="max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-lg border border-eden-light/30">
-      <video
-        src="https://res.cloudinary.com/dontocypb/video/upload/v1761725594/WhatsApp_Video_2025-10-29_at_1.42.39_PM_mtm68o.mp4"
-        className="w-full h-[260px] md:h-[360px] object-cover"
-        controls
-        preload="metadata"
-        poster="https://res.cloudinary.com/dontocypb/image/upload/v1761727565/0003_eoiwuc.jpg"
-      />
+    {/* 🎥 Feedback Videos Grid */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center px-4">
+      {/* Video 1 */}
+      <div className="rounded-2xl overflow-hidden shadow-lg border border-eden-light/30">
+        <div className="aspect-[9/12] w-full">
+          <iframe
+            className="w-full h-full object-cover"
+            src="https://www.youtube.com/embed/ZTl765h14VA?loop=1&playlist=ZTl765h14VA&controls=0&modestbranding=1&rel=0"
+            title="Our Guests STORY @ Eden Wellness & Hospitality"
+            frameBorder="0"
+            allow="encrypted-media; clipboard-write; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
+      {/* Video 2 */}
+      <div className="rounded-2xl overflow-hidden shadow-lg border border-eden-light/30">
+        <div className="aspect-[9/12] w-full">
+          <iframe
+            className="w-full h-full object-cover"
+            src="https://www.youtube.com/embed/l2jyahTbs50?loop=1&playlist=l2jyahTbs50&controls=0&modestbranding=1&rel=0"
+            title="Guest Feedback - Himalayan Retreat"
+            frameBorder="0"
+            allow="encrypted-media; clipboard-write; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
+      {/* Video 3 */}
+      <div className="rounded-2xl overflow-hidden shadow-lg border border-eden-light/30">
+        <div className="aspect-[9/12] w-full">
+          <iframe
+            className="w-full h-full object-cover"
+            src="https://www.youtube.com/embed/1D79YhyHLVY?loop=1&playlist=1D79YhyHLVY&controls=0&modestbranding=1&rel=0"
+            title="Where every stay feels like coming home to peace"
+            frameBorder="0"
+            allow="encrypted-media; clipboard-write; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
   );
 
 

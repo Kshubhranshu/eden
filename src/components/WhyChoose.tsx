@@ -28,16 +28,17 @@ const WhyChoose: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
 <div className="rounded-2xl overflow-hidden shadow-xl">
-  <video
+  <iframe
     className="w-full h-[250px] md:h-[400px] object-cover"
-    src="https://res.cloudinary.com/dontocypb/video/upload/v1761720952/WhatsApp_Video_2025-10-28_at_5.22.48_PM_nqhlaw.mp4"
-    playsInline
-    autoPlay
-    muted
-    loop
-    preload="metadata"
-  />
+    src="https://www.youtube.com/embed/VI5nh8qqfgE?autoplay=1&mute=1&loop=1&playlist=VI5nh8qqfgE&controls=0&showinfo=0&modestbranding=1&rel=0"
+    title="EDEN WELLNESS & HOSPITALITY - Where your mind checks in before your luggage."
+    allow="autoplay; encrypted-media"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
 </div>
+
+
 
 
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-eden-accent/30 rounded-lg -z-10"></div>
