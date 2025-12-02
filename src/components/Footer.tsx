@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
               <a href="#" className="flex items-center">
                 <span className="text-2xl font-serif font-semibold text-white">
                   <img
-                    src="https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Eden-logo.png?updatedAt=1749536236249"
+                    src="https://ik.imagekit.io/sxe8qsgazl/edenwellness/Eden-logo.png?updatedAt=1757394157718"
                     alt="Eden Logo"
                     className="w-24"
                   />

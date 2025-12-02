@@ -54,14 +54,14 @@ const About: React.FC = () => {
 
           <div className="order-1 md:order-2 relative ">
             <div className="rounded-lg overflow-hidden shadow-xl">
-              <video
-                src="https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Your%20Hill%20Stay%20Awaits.mkv/ik-video.mp4?updatedAt=1749654745375"
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="w-full h-64 md:h-full object-cover rounded-lg video-bounce"
-              ></video>
+              <div className="h-auto md:h-[490px]">
+  <img
+    className="w-full h-full object-cover rounded-lg"
+    src="https://ik.imagekit.io/sxe8qsgazl/edenwellness/hero-sub-image.jpeg?updatedAt=1764654271881"
+    alt="Eden night view"
+  />
+</div>
+
             </div>
             <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-eden-light rounded-lg -z-10"></div>
             <div className="absolute -top-6 -right-6 w-32 h-32 bg-eden-accent/30 rounded-lg -z-10"></div>

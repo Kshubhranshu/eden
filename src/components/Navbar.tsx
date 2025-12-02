@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
           {/* <span className="text-2xl font-serif font-semibold text-eden-dark">Eden</span>
           <span className="text-md text-eden ml-1 font-light">Gracious Living</span> */}
           <img
-            src="https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Eden-logo.png?updatedAt=1749536236249"
+            src="https://ik.imagekit.io/sxe8qsgazl/edenwellness/Eden-logo.png?updatedAt=1757394157718"
             alt="logo"
             className="w-20"
           />

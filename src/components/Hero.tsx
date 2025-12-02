@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-80 z-0"
         style={{
           backgroundImage:
-            "url('https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Home%20page/Home-Page-Cover.jpg?updatedAt=1749655344808')",
+            "url('https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-hero-bg.jpg?updatedAt=1764326508917')",
         }}
       />
 
