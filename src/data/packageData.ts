@@ -7,15 +7,15 @@ export const roomTypes: RoomType[] = [
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/studio.jpg",
         size: "400-500 sq ft",
         guests: 1,
-        startingPrice: 6499,
+        startingPrice: 7500,
         originalPrice: 9000,
         roomsLeft: 1,
         description:
             "Cozy Eden Haven(studio apartment) perfect for solo travelers seeking comfort and wellness",
         amenities: ["WiFi", "Kitchenette", "Balcony", "Air Conditioning"],
         weekdayPrice: {
-            withoutBreakfast: 5000,
-            withBreakfast: 5500,
+            withoutBreakfast: 6000,
+            withBreakfast: "",
         },
     },
     {
@@ -24,7 +24,7 @@ export const roomTypes: RoomType[] = [
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/1bhk.jpg",
         size: "600-800 sq ft",
         guests: 2,
-        startingPrice: 8999,
+        startingPrice: 10000,
         roomsLeft: 1,
         originalPrice: 11000,
         description:
@@ -37,8 +37,8 @@ export const roomTypes: RoomType[] = [
             "Air Conditioning",
         ],
         weekdayPrice: {
-            withoutBreakfast: 6500,
-            withBreakfast: 7000,
+            withoutBreakfast: 7500,
+            withBreakfast: "",
         },
     },
     {
@@ -47,7 +47,7 @@ export const roomTypes: RoomType[] = [
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/2bhk.jpg",
         size: "900-1200 sq ft",
         guests: 4,
-        startingPrice: 12999,
+        startingPrice: 15000,
         originalPrice: 18000,
         roomsLeft: 2,
         description: "Premium two-bedroom apartment perfect for families",
@@ -59,8 +59,8 @@ export const roomTypes: RoomType[] = [
             "Air Conditioning",
         ],
         weekdayPrice: {
-            withoutBreakfast: 10000,
-            withBreakfast: 12000,
+            withoutBreakfast: 12000,
+            withBreakfast: "",
         },
     },
     {

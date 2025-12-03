@@ -284,7 +284,7 @@ const RoomTypeSelector = ({ onSelect }: RoomTypeSelectorProps) => {
               <p className="text-2xl font-serif font-bold text-emerald-700">
                 ₹{roomType.weekdayPrice.withoutBreakfast.toLocaleString()}
               </p>
-              <p className="text-sm text-gray-600">+ taxes (without breakfast)</p>
+              <p className="text-sm text-gray-600">+ taxes EP</p>
             </div>
           )}
 
