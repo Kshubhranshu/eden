@@ -55,11 +55,17 @@ const About: React.FC = () => {
           <div className="order-1 md:order-2 relative ">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <div className="h-auto md:h-[490px]">
-  <img
-    className="w-full h-full object-cover rounded-lg"
-    src="https://ik.imagekit.io/sxe8qsgazl/edenwellness/hero-sub-image.jpeg?updatedAt=1764654271881"
-    alt="Eden night view"
-  />
+  <div className="w-full h-full rounded-lg overflow-hidden">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/HeOyO0b3BzI?autoplay=1&mute=1&loop=1&playlist=HeOyO0b3BzI&controls=0&modestbranding=1&showinfo=0&rel=0"
+    title="Eden Wellness & Hospitality Property Video"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
+</div>
+
 </div>
 
             </div>
