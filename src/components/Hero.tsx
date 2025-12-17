@@ -1,54 +1,118 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useCallback } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 import { Button } from "@/components/ui/button";
 import { pushToDataLayer } from "@/lib/utils";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const Hero: React.FC = () => {
-  function scrollTOBottom(sectionId: string) {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  }
+const slides = [
+  {
+    title: "Ultimate Luxury Wellness & Hospitality Retreat",
+    subtitle: "in Dehradun Valley",
+    description: "Experience premium wellness and hospitality in the Himalayas.",
+    image:
+      "https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-hero-bg.jpg",
+  },
+  {
+    title: "",
+    subtitle: "",
+    description: "",
+    image:
+      "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-2.jpeg",
+  },
+  {
+    title: "",
+    subtitle: "",
+    description: "",
+    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-3.jpeg",
+  },
+  {
+    title: "",
+    subtitle: "",
+    description: "",
+    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-1.jpeg",
+  },
+];
+
+const HeroCarousel: React.FC = () => {
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { loop: true },
+    [Autoplay({ delay: 5000, stopOnInteraction: false })]
+  );
+
+  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
+
   return (
-    <section className="relative pt-28 md:pt-32 lg:pt-36 pb-16 md:pb-20 lg:pb-32 overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-80 z-0"
-        style={{
-          backgroundImage:
-            "url('https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-hero-bg.jpg?updatedAt=1764326508917')",
-        }}
-      />
+    <section className="relative pb-20 overflow-hidden">
+      <div ref={emblaRef} className="overflow-hidden border-red-500">
+        <div className="flex">
+          {slides.map((slide, index) => (
+            <div
+              key={index}
+              className="relative min-w-full h-[80vh] flex items-center justify-center"
+            >
+              {/* Background */}
+              <div
+                className="absolute inset-0 bg-cover bg-center"
+                style={{ backgroundImage: `url('${slide.image}')` }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/70" />
 
-      <div className="absolute inset-0 bg-gradient-to-b from-eden-beige/10 to-eden-light/70 z-10"></div>
+              {/* Content */}
+              <div className="relative z-10 max-w-3xl text-center text-white px-6">
+                <h1 className="text-4xl md:text-5xl font-serif font-semibold mb-4">
+                  {slide.title}
+                  <br />
+                  <span className="text-eden-beige">{slide.subtitle}</span>
+                </h1>
+                <p className="text-lg md:text-xl mb-8">
+                  {slide.description}
+                </p>
 
-      <div className="container-custom relative z-10">
-        <div className="max-w-3xl mx-auto text-center">
-          <h5 className="text-eden font-medium mb-4 animate-fade-in"></h5>
-          <h1 className="text-4xl md:text-5xl font-serif font-semibold mb-6 text-eden-dark animate-fade-in lg:text-5xl">
-            Ultimate Luxury Wellness & Hospitality Retreat
-            <br />
-            in Dehradun Valley
-          </h1>
-          <p className="text-lg md:text-xl text-eden-text mb-8 animate-fade-in">
-            Experience Premium Wellness and Hospitality in the Himalayas.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in">
-            <a href="/#contact">
-              <Button className="btn-primary" onClick={() => pushToDataLayer("contact_button_click", { button_location: "hero-book-now" })}>Book Now</Button>
-            </a>
-            <a href="/#choose-your-sanctuary">
-              <Button variant="outline" className="btn-secondary">
-                Explore Rooms
-              </Button>
-            </a>
-          </div>
+                <div className="flex flex-col sm:flex-row justify-center gap-4">
+                  <a href="https://bookingengine.maximojo.com/?hid=IN-c7fcf118-f426-4ddd-b593-e484d6a69a3b"target="_blank">
+                    <Button
+                      className="btn-primary"
+                      onClick={() =>
+                        pushToDataLayer("contact_button_click", {
+                          button_location: "hero-carousel",
+                        })
+                      }
+                    >
+                      Book Now
+                    </Button>
+                  </a>
+                  <a href="/#choose-your-sanctuary">
+                    <Button variant="outline" className="btn-secondary">
+                      Explore Rooms
+                    </Button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
-      {/* Decorative Element */}
-      <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-background to-transparent"></div>
+      {/* Navigation Buttons */}
+      <button
+        onClick={scrollPrev}
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 p-3 rounded-full hover:bg-white"
+      >
+        <ChevronLeft />
+      </button>
+
+      <button
+        onClick={scrollNext}
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 p-3 rounded-full hover:bg-white"
+      >
+        <ChevronRight />
+      </button>
     </section>
   );
 };
-export default Hero;
+
+export default HeroCarousel;
