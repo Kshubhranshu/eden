@@ -259,6 +259,7 @@ const RoomTypeSelector = ({ onSelect }: RoomTypeSelectorProps) => {
                             </CardHeader>
 
                             <CardContent className="space-y-6">
+                                {false && <>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center space-x-2 text-stone-600">
                                         <Users className="w-5 h-5 text-eden" />
@@ -343,8 +344,12 @@ const RoomTypeSelector = ({ onSelect }: RoomTypeSelectorProps) => {
                                         </p>
                                     </div>
                                 </div>
+                                *//
 
-                                {/* Rooms left info */}
+                             
+                                </>}
+                                
+                                   {/* Rooms left info */}
                                 <div className="text-center">
                                     <p className="text-sm font-semibold text-red-600">
                                         {roomType.roomsLeft} room
@@ -362,7 +367,7 @@ const RoomTypeSelector = ({ onSelect }: RoomTypeSelectorProps) => {
                                             )
                                         }
                                     >
-                                        Know More
+                                        Book Now
                                     </Button>
                                 </div>
                             </CardContent>
