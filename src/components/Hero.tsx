@@ -15,25 +15,25 @@ const slides = [
     image:
       "https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-hero-bg.jpg",
   },
-  {
-    title: "",
-    subtitle: "",
-    description: "",
-    image:
-      "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-2.jpeg",
-  },
-  {
-    title: "",
-    subtitle: "",
-    description: "",
-    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-3.jpeg",
-  },
-  {
-    title: "",
-    subtitle: "",
-    description: "",
-    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-1.jpeg",
-  },
+  // {
+  //   title: "",
+  //   subtitle: "",
+  //   description: "",
+  //   image:
+  //     "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-2.jpeg",
+  // },
+  // {
+  //   title: "",
+  //   subtitle: "",
+  //   description: "",
+  //   image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-3.jpeg",
+  // },
+  // {
+  //   title: "",
+  //   subtitle: "",
+  //   description: "",
+  //   image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/christmas-banner-1.jpeg",
+  // },
 ];
 
 const HeroCarousel: React.FC = () => {

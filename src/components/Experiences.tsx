@@ -60,7 +60,7 @@ const EdenExperiences: React.FC = () => {
       button: "Book a Spa Session",
     },
     {
-      title: "Savor Gourmet Delights at Nouvean Table Restaurant",
+      title: "Savor Gourmet Delights at Nouveau Table Restaurant",
       description:
         "Experience farm-to-table cuisine curated by top chefs in our 9th-floor restaurant overlooking the majestic Himalayas. Our menu features global flavors crafted with locally sourced, sustainable ingredients for an unforgettable dining experience.",
       img: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-resturant?updatedAt=1763400287475",
