@@ -70,23 +70,23 @@ const GalleryPage = () => {
       title: "Exterior",
       images: [
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Exterior/DJI_0690.00_00_00_02.Still007-grade.jpg?updatedAt=1749649862060",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0690.00_00_41_00.grade.jpg",
           alt: "Exterior view",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Exterior/DJI_0690.00_00_41_00.grade.jpg?updatedAt=1749649862140",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0690.00_00_09_00.Still008-grade.jpg",
           alt: "Exterior view",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Exterior/DJI_0690.00_00_04_07.Still010-Grade.jpg?updatedAt=1749649861811",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0690.00_00_00_02.Still007-grade.jpg",
           alt: "Exterior view",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Exterior/DJI_0690.00_00_18_07.Still009-Grade.jpg?updatedAt=1749649861668",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0690.00_00_18_07.Still009-Grade.jpg",
           alt: "Exterior view",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Exterior/DJI_0690.00_00_09_00.Still008-grade.jpg?updatedAt=1749649861662",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0690.00_00_04_07.Still010-Grade.jpg",
           alt: "Exterior view",
         },
       ],
@@ -109,19 +109,19 @@ const GalleryPage = () => {
       title: "Lobby",
       images: [
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Lobby/_DSC6747.jpg?updatedAt=1749652130374",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6836.jpg",
           alt: "Main lobby",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Lobby/_DSC6754.jpg?updatedAt=1749652130277",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6776.jpg",
           alt: "Reception area",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Lobby/_DSC6836.jpg?updatedAt=1749652130239",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6754.jpg",
           alt: "Lobby seating",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Lobby/_DSC6776.jpg?updatedAt=1749652129919",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6747.jpg",
           alt: "Welcome area",
         },
       ],
@@ -420,19 +420,19 @@ const GalleryPage = () => {
       title: "1BHK",
       images: [
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/1BHK/_DSC6686-Color-Grade.jpg?updatedAt=1749653239184",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Cover-1.1-Color-Grade.jpg",
           alt: "1BHK kitchen",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/1BHK/_DSC6684-Color-Grade.jpg?updatedAt=1749653239126",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6686-Color-Grade.jpg",
           alt: "1BHK balcony",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/1BHK/Cover-1.1-Color-Grade.jpg?updatedAt=1749653239013",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6684-Color-Grade.jpg",
           alt: "1BHK bathroom",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/1BHK/_DSC6678-Color-Grade.jpg?updatedAt=1749653238641",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6678-Color-Grade.jpg",
           alt: "1BHK bathroom",
         },
         // {

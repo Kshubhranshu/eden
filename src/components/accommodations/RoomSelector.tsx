@@ -350,12 +350,12 @@ const RoomTypeSelector = ({ onSelect }: RoomTypeSelectorProps) => {
                                 </>}
                                 
                                    {/* Rooms left info */}
-                                <div className="text-center">
+                                {/* <div className="text-center">
                                     <p className="text-sm font-semibold text-red-600">
                                         {roomType.roomsLeft} room
                                         {roomType.roomsLeft > 1 ? "s" : ""} left
                                     </p>
-                                </div>
+                                </div> */}
 
                                 <div className="flex justify-center">
                                     <Button
