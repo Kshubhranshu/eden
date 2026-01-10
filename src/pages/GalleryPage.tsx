@@ -445,35 +445,35 @@ const GalleryPage = () => {
       title: "2BHK",
       images: [
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/2BHK/_DSC1946%20Color%20Grade.jpg?updatedAt=1749653423612",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Living%20area.jpg",
           alt: "2BHK living room",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/2BHK/_DSC1949-Color-Grade.jpg?updatedAt=1749653418146",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Room%201(1).jpg",
           alt: "2BHK master bedroom",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/2BHK/_DSC1962-Color-Grade.jpg?updatedAt=1749653417819",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Room%202.jpg",
           alt: "2BHK kitchen",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/2BHK/_DSC1929-Color-Grade.jpg?updatedAt=1749653417734",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Room%201.jpg",
           alt: "2BHK bathroom",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/2BHK/_DSC1972-Color-Grade.jpg?updatedAt=1749653417708",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Bathroom.jpg",
           alt: "2BHK balcony",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/2BHK/_DSC6637-Color-Grade.jpg?updatedAt=1749653417374",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Cover---to-be-extracted-fom-the-video-cOLOR-GRADE.jpg",
           alt: "2BHK master bathroom",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/2BHK/006-Color-Grade.jpg?updatedAt=1749653417022",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Dining%20Area.jpg",
           alt: "2BHK master bathroom",
         },
         {
-          src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/2BHK/Cover---to-be-extracted-fom-the-video-cOLOR-GRADE.jpg?updatedAt=1749653416116",
+          src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Kitchen.jpg",
           alt: "2BHK master bathroom",
         },
       ],
