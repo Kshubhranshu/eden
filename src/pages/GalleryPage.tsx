@@ -518,14 +518,14 @@ const GalleryPage = () => {
         },
       ],
     },
-    // miscellaneous: {
-    //   title: "Miscellaneous",
-    //   images: [{
-    //     src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Misc/_DSC1324.JPG?updatedAt=1749492253399",
-    //     alt: "Common area"
-    //   }
-    // ]
-    // }
+    experiences: {
+      title: "Experiences",
+      images: [{
+        src: "",
+        alt: "experiences"
+      }
+    ]
+    }
   };
   const openLightbox = (images: GalleryImage[], startIndex: number) => {
     setCurrentImages(images);
@@ -638,7 +638,7 @@ const GalleryPage = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Gallery%20Cover.jpg?updatedAt=1749545326027')",
+              "url('https://ik.imagekit.io/sxe8qsgazl/edenwellness/Home-Page-Cover.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-black/50" />
