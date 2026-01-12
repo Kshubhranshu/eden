@@ -13,26 +13,26 @@ const slides = [
     subtitle: "in Dehradun Valley",
     description: "Experience premium wellness and hospitality in the Himalayas.",
     image:
-      "https://ik.imagekit.io/sxe8qsgazl/edenwellness/eden-hero-bg.jpg",
+      "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0529.JPG",
   },
   {
     title: "",
     subtitle: "",
     description: "",
     image:
-    "https://ik.imagekit.io/sxe8qsgazl/edenwellness/WhatsApp%20Image%202026-01-12%20at%2011.03.19%20PM.jpeg",
+    "https://ik.imagekit.io/sxe8qsgazl/edenwellness/1.png",
   },
   {
     title: "",
     subtitle: "",
     description: "",
-    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/WhatsApp%20Image%202026-01-12%20at%2011.05.55%20PM.jpeg",
+    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px).png",
   },
   {
     title: "",
     subtitle: "",
     description: "",
-    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/WhatsApp%20Image%202026-01-12%20at%2011.03.19%20PM%20(1).jpeg",
+    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/2.png",
   },
 ];
 
