@@ -15,18 +15,18 @@ const slides = [
     image:
       "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0529.JPG",
   },
+  // {
+  //   title: "",
+  //   subtitle: "",
+  //   description: "",
+  //   image:
+  //   "https://ik.imagekit.io/sxe8qsgazl/edenwellness/1.png",
+  // },
   {
     title: "",
     subtitle: "",
     description: "",
-    image:
-    "https://ik.imagekit.io/sxe8qsgazl/edenwellness/1.png",
-  },
-  {
-    title: "",
-    subtitle: "",
-    description: "",
-    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px).png",
+    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/3.png",
   },
   {
     title: "",
