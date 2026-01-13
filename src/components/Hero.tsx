@@ -26,7 +26,7 @@ const slides = [
         title: "",
         subtitle: "",
         description: "",
-        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/3.png",
+        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(2).png",
     },
     {
         title: "",
