@@ -8,111 +8,177 @@ import { pushToDataLayer } from "@/lib/utils";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
-  {
-    title: "Ultimate Luxury Wellness & Hospitality Retreat",
-    subtitle: "in Dehradun Valley",
-    description: "Experience premium wellness and hospitality in the Himalayas.",
-    image:
-      "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0529.JPG",
-  },
-  // {
-  //   title: "",
-  //   subtitle: "",
-  //   description: "",
-  //   image:
-  //   "https://ik.imagekit.io/sxe8qsgazl/edenwellness/1.png",
-  // },
-  {
-    title: "",
-    subtitle: "",
-    description: "",
-    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/3.png",
-  },
-  {
-    title: "",
-    subtitle: "",
-    description: "",
-    image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(1).png",
-  },
+    {
+        title: "Ultimate Luxury Wellness & Hospitality Retreat",
+        subtitle: "in Dehradun Valley",
+        description:
+            "Experience premium wellness and hospitality in the Himalayas.",
+        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/DJI_0529.JPG",
+    },
+    // {
+    //   title: "",
+    //   subtitle: "",
+    //   description: "",
+    //   image:
+    //   "https://ik.imagekit.io/sxe8qsgazl/edenwellness/1.png",
+    // },
+    {
+        title: "",
+        subtitle: "",
+        description: "",
+        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/3.png",
+    },
+    {
+        title: "",
+        subtitle: "",
+        description: "",
+        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(1).png",
+    },
 ];
 
 const HeroCarousel: React.FC = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true },
-    [Autoplay({ delay: 5000, stopOnInteraction: false })]
-  );
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+        Autoplay({ delay: 5000, stopOnInteraction: false }),
+    ]);
 
-  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
-  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
+    const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+    const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
 
-  return (
-    <section className="relative pb-20 overflow-hidden">
-      <div ref={emblaRef} className="overflow-hidden border-red-500">
-        <div className="flex">
-          {slides.map((slide, index) => (
-            <div
-              key={index}
-              className="relative min-w-full h-[80vh] flex items-center justify-center"
-            >
-              {/* Background */}
-              <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: `url('${slide.image}')` }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/70" />
+    return (
+        <>
+            <section className="relative overflow-hidden">
+                <div ref={emblaRef} className="overflow-hidden border-red-500">
+                    <div className="flex">
+                        {slides.map((slide, index) => (
+                            <div
+                                key={index}
+                                className="relative min-w-full h-[80vh] flex items-center justify-center"
+                            >
+                                {/* Background */}
+                                <div
+                                    className="absolute inset-0 bg-cover bg-center"
+                                    style={{
+                                        backgroundImage: `url('${slide.image}')`,
+                                    }}
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/70" />
 
-              {/* Content */}
-              <div className="relative z-10 max-w-3xl text-center text-white px-6">
-                <h1 className="text-4xl md:text-5xl font-serif font-semibold mb-4">
-                  {slide.title}
-                  <br />
-                  <span className="text-eden-beige">{slide.subtitle}</span>
-                </h1>
-                <p className="text-lg md:text-xl mb-8">
-                  {slide.description}
-                </p>
+                                {/* Content */}
+                                <div className="relative z-10 max-w-3xl text-center text-white px-6">
+                                    <h1 className="text-4xl md:text-5xl font-serif font-semibold mb-4">
+                                        {slide.title}
+                                        <br />
+                                        <span className="text-eden-beige">
+                                            {slide.subtitle}
+                                        </span>
+                                    </h1>
+                                    <p className="text-lg md:text-xl mb-8">
+                                        {slide.description}
+                                    </p>
 
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
-                  <a href="https://bookingengine.maximojo.com/?hid=IN-c7fcf118-f426-4ddd-b593-e484d6a69a3b"target="_blank">
-                    <Button
-                      className="btn-primary"
-                      onClick={() =>
-                        pushToDataLayer("contact_button_click", {
-                          button_location: "hero-carousel",
-                        })
-                      }
-                    >
-                      Book Now
-                    </Button>
-                  </a>
-                  <a href="/#choose-your-sanctuary">
-                    <Button variant="outline" className="btn-secondary">
-                      Explore Rooms
-                    </Button>
-                  </a>
+                                    {/* <div className="flex flex-col sm:flex-row justify-center gap-4">
+                                        <a
+                                            href="https://bookingengine.maximojo.com/?hid=IN-c7fcf118-f426-4ddd-b593-e484d6a69a3b"
+                                            target="_blank"
+                                        >
+                                            <Button
+                                                className="btn-primary"
+                                                onClick={() =>
+                                                    pushToDataLayer(
+                                                        "contact_button_click",
+                                                        {
+                                                            button_location:
+                                                                "hero-carousel",
+                                                        }
+                                                    )
+                                                }
+                                            >
+                                                Book Now
+                                            </Button>
+                                        </a>
+                                        <a href="/#choose-your-sanctuary">
+                                            <Button
+                                                variant="outline"
+                                                className="btn-secondary"
+                                            >
+                                                Explore Rooms
+                                            </Button>
+                                        </a>
+                                    </div> */}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
 
-      {/* Navigation Buttons */}
-      <button
-        onClick={scrollPrev}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 p-3 rounded-full hover:bg-white"
-      >
-        <ChevronLeft />
-      </button>
+                {/* Navigation Buttons */}
+                <button
+                    onClick={scrollPrev}
+                    className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 p-3 rounded-full hover:bg-white"
+                >
+                    <ChevronLeft />
+                </button>
 
-      <button
-        onClick={scrollNext}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 p-3 rounded-full hover:bg-white"
-      >
-        <ChevronRight />
-      </button>
-    </section>
-  );
+                <button
+                    onClick={scrollNext}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/80 p-3 rounded-full hover:bg-white"
+                >
+                    <ChevronRight />
+                </button>
+            </section>
+            <section className="bg-eden py-8">
+                <div className="max-w-6xl mx-auto">
+<div className="flex flex-col sm:flex-row justify-center gap-6 px-6 sm:px-0">
+                        <a
+                            href="https://bookingengine.maximojo.com/?hid=IN-c7fcf118-f426-4ddd-b593-e484d6a69a3b"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Button
+                                onClick={() =>
+                                    pushToDataLayer("contact_button_click", {
+                                        button_location: "navbar",
+                                    })
+                                }
+                                variant="outline"
+                                className="bg-eden-dark text-white px-6 py-3 rounded-md transition-all duration-300 ease-in-out font-medium w-full sm:w-auto"
+                            >
+                                Book Now
+                            </Button>
+                        </a>
+
+                        <a href="#contact">
+                            <Button
+                                onClick={() =>
+                                    pushToDataLayer("contact_button_click", {
+                                        button_location: "navbar",
+                                    })
+                                }
+                                variant="outline"
+                                className="bg-eden-dark text-white px-6 py-3 rounded-md transition-all duration-300 ease-in-out font-medium w-full sm:w-auto"
+                            >
+                                Book a Table
+                            </Button>
+                        </a>
+
+                        <a href="/#choose-your-sanctuary">
+                            <Button
+                                onClick={() =>
+                                    pushToDataLayer("contact_button_click", {
+                                        button_location: "navbar",
+                                    })
+                                }
+                                variant="outline"
+                                className="bg-eden-dark text-white px-6 py-3 rounded-md transition-all duration-300 ease-in-out font-medium w-full sm:w-auto"
+                            >
+                                Explore Rooms
+                            </Button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </>
+    );
 };
 
 export default HeroCarousel;

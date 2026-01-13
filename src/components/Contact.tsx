@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!Name || !Email || !phone || !roomType || !duration) {
+    if (!Name || !Email || !phone || !roomType) {
       setErrorMsg("Please fill in all the required fields.");
       return;
     }
@@ -78,7 +78,6 @@ const Contact: React.FC = () => {
           message: Message || null,
           phone: phone,
           room_type: roomType || null,
-          duration: duration || null,
           source: window?.location?.href
         },
       ])
@@ -94,7 +93,6 @@ const Contact: React.FC = () => {
       setMessage("");
       setPhone("");
       setRoomType("");
-      setDuration("");
       window.open("/thank-you", "_blank");
     }
 
@@ -105,10 +103,10 @@ const Contact: React.FC = () => {
   };
 
   useEffect(() => {
-    if (Email && roomType && duration && Name && phone) {
+    if (Email && roomType && Name && phone) {
       setErrorMsg("");
     }
-  }, [Name, Email, phone, roomType, duration]);
+  }, [Name, Email, phone, roomType]);
 
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
@@ -134,7 +132,7 @@ const Contact: React.FC = () => {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-4 text-eden-dark">
-            Contact Us
+            Book a Table
           </h2>
           <div className="w-20 h-1 bg-eden mx-auto mb-6"></div>
           <p className="text-eden-text">
@@ -191,21 +189,21 @@ const Contact: React.FC = () => {
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="room-type">Preferred Room Type</Label>
+                    <Label htmlFor="room-type">Corporate Bookings/ Book Table</Label>
                     <Select value={roomType} onValueChange={setRoomType}>
                       <SelectTrigger>
-                        <SelectValue placeholder="Select room type" />
+                        <SelectValue placeholder="Select booking type" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="studio">Eden Haven</SelectItem>
-                        <SelectItem value="1bhk">Eden Residence</SelectItem>
-                        <SelectItem value="2bhk">Eden Grand</SelectItem>
+                        <SelectItem value="nouveau-table">Nouveau Table</SelectItem>
+                        <SelectItem value="nook-book">The Nook Cafe</SelectItem>
+                        <SelectItem value="corporate-booking">Corporate Booking</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-6">
+                {/* <div className="grid grid-cols-1 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="duration">Preferred Duration</Label>
                     <Select value={duration} onValueChange={setDuration}>
@@ -220,7 +218,7 @@ const Contact: React.FC = () => {
                       </SelectContent>
                     </Select>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="space-y-2">
                   <Label htmlFor="message">Message</Label>
