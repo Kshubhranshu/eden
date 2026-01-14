@@ -13,7 +13,7 @@ const slides = [
         subtitle: "in Dehradun Valley",
         description:
             "Experience premium wellness and hospitality in the Himalayas.",
-        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(3).png",
+        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/WhatsApp%20Image%202026-01-14%20at%208.41.35%20PM.jpeg",
     },
     // {
     //   title: "",
