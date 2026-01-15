@@ -67,7 +67,7 @@ const HeroCarousel: React.FC = () => {
                                         backgroundImage: `url('${slide.image}')`,
                                     }}
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/70" />
+                                <div className="absolute inset-0" />
 
                                 {/* Content */}
                                 <div className="relative z-10 max-w-3xl text-center text-white px-6">
