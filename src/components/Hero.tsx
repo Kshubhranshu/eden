@@ -34,12 +34,12 @@ const slides = [
         description: "Experience premium wellness and hospitality in the Himalayas.",
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(3).png?updatedAt=1768301101356",
     },
-    {
-        title: "",
-        subtitle: "",
-        description: "",
-        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/7.png?updatedAt=1768405900425",
-    },
+    // {
+    //     title: "",
+    //     subtitle: "",
+    //     description: "",
+    //     image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/7.png?updatedAt=1768405900425",
+    // },
 ];
 
 const HeroCarousel: React.FC = () => {
