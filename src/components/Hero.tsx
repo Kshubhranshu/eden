@@ -11,8 +11,7 @@ const slides = [
     {
         title: "",
         subtitle: "",
-        description:
-            "",
+        description: "",
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/6.png",
     },
     // {
@@ -31,7 +30,8 @@ const slides = [
     {
         title: "Ultimate Luxury Wellness & Hospitality Retreat",
         subtitle: "in Dehradun Valley",
-        description: "Experience premium wellness and hospitality in the Himalayas.",
+        description:
+            "Experience premium wellness and hospitality in the Himalayas.",
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(10).png",
     },
     // {
@@ -58,15 +58,15 @@ const HeroCarousel: React.FC = () => {
                         {slides.map((slide, index) => (
                             <div
                                 key={index}
-                                className="relative min-w-full h-[80vh] flex items-center justify-center"
+                                className="relative min-w-full h-[80vh] md:h-[100vh]  flex items-center justify-center"
                             >
                                 {/* Background */}
-                                <div
-                                    className="absolute inset-0 bg-cover bg-center"
-                                    style={{
-                                        backgroundImage: `url('${slide.image}')`,
-                                    }}
+                                <img
+                                    src={slide.image}
+                                    className="absolute inset-0 w-full h-full object-cover"
+                                    alt=""
                                 />
+
                                 <div className="absolute inset-0" />
 
                                 {/* Content */}
@@ -134,7 +134,7 @@ const HeroCarousel: React.FC = () => {
             </section>
             <section className="bg-eden py-8">
                 <div className="max-w-6xl mx-auto">
-<div className="flex flex-col sm:flex-row justify-center gap-6 px-6 sm:px-0">
+                    <div className="flex flex-col sm:flex-row justify-center gap-6 px-6 sm:px-0">
                         <a
                             href="https://bookingengine.maximojo.com/?hid=IN-c7fcf118-f426-4ddd-b593-e484d6a69a3b"
                             target="_blank"
