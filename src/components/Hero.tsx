@@ -9,10 +9,10 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
     {
-        title: "Ultimate Luxury Wellness & Hospitality Retreat",
-        subtitle: "in Dehradun Valley",
+        title: "",
+        subtitle: "",
         description:
-            "Experience premium wellness and hospitality in the Himalayas.",
+            "",
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/6.png",
     },
     // {
@@ -29,9 +29,9 @@ const slides = [
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/WhatsApp%20Image%202026-01-14%20at%208.58.11%20PM.jpeg?updatedAt=1768404536821",
     },
     {
-        title: "",
-        subtitle: "",
-        description: "",
+        title: "Ultimate Luxury Wellness & Hospitality Retreat",
+        subtitle: "in Dehradun Valley",
+        description: "Experience premium wellness and hospitality in the Himalayas.",
         image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(3).png?updatedAt=1768301101356",
     },
     {
