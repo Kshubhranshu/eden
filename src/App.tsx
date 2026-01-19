@@ -17,6 +17,7 @@ import BookingSummaryPage from "./pages/BookingSummaryPage";
 import BookNowPage from "./pages/BookNowPage";
 import { RoomType } from "./types/accommodation";
 import BookSummary from "./pages/BookSummary";
+import SocialBar from "./components/SocialBar"
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <SocialBar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
