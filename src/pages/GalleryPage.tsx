@@ -133,15 +133,15 @@ const GalleryPage = () => {
           title: "Library",
           images: [
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Librarry/_DSC6661-Color-Grade.jpg?updatedAt=1749652270280",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6668-Color-Grade.jpg",
               alt: "Study area",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Librarry/_DSC6668-Color-Grade.jpg?updatedAt=1749652270231",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6661-Color-Grade.jpg",
               alt: "Book rack",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Librarry/_DSC6654-Color-grade.jpg?updatedAt=1749652270161",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6654-Color-grade.jpg",
               alt: "Bookshelf",
             },
           ],
@@ -154,15 +154,15 @@ const GalleryPage = () => {
             //   alt: "Recreation room",
             // },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Rec%20room/_DSC6745.jpg?updatedAt=1749651761543",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6739-Color-Grade.jpg",
               alt: "Game tables",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Rec%20room/_DSC6739-Color-Grade.jpg?updatedAt=1749651761482",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6735-Color-Garde.jpg",
               alt: "Social games area",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Rec%20room/_DSC6735-Color-Garde.jpg?updatedAt=1749651761321",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6745.jpg",
               alt: "Recreation room",
             },
           ],
@@ -171,11 +171,11 @@ const GalleryPage = () => {
           title: "Yoga",
           images: [
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Yoga/_DSC1494-Color-Grade.jpg?updatedAt=1749652974575",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1185-Color-Grade.jpg",
               alt: "Yoga studio",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Yoga/_DSC1193--Color-Grade.jpg?updatedAt=1749652974469",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1193--Color-Grade.jpg",
               alt: "Practice area",
             },
             // {
@@ -183,7 +183,7 @@ const GalleryPage = () => {
             //   alt: "Meditation space",
             // },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Yoga/_DSC1185-Color-Grade.jpg?updatedAt=1749652974424",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1494-Color-Grade.jpg",
               alt: "Meditation space",
             },
           ],
