@@ -252,7 +252,7 @@ const GalleryPage = () => {
             //   alt: "Wellness area",
             // },
             {
-              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1696-Color-Grade.jpg",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1675-Color-Grade.jpg",
               alt: "Wellness area",
             },
           ],
