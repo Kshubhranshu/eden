@@ -8,12 +8,12 @@ import { pushToDataLayer } from "@/lib/utils";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
-    {
-        title: "",
-        subtitle: "",
-        description: "",
-        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/6.png",
-    },
+    // {
+    //     title: "",
+    //     subtitle: "",
+    //     description: "",
+    //     image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/6.png",
+    // },
     // {
     //   title: "",
     //   subtitle: "",
@@ -21,12 +21,12 @@ const slides = [
     //   image:
     //   "https://ik.imagekit.io/sxe8qsgazl/edenwellness/1.png",
     // },
-    {
-        title: "",
-        subtitle: "",
-        description: "",
-        image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(9).png",
-    },
+    // {
+    //     title: "",
+    //     subtitle: "",
+    //     description: "",
+    //     image: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/READY%20TO%20MOVE%20IN%20only%20FEW%20UNITS%20LEFT%20(3820%20x%202160%20px)%20(9).png",
+    // },
     {
         title: "Ultimate Luxury Wellness & Hospitality Retreat",
         subtitle: "in Dehradun Valley",
