@@ -203,15 +203,15 @@ const GalleryPage = () => {
           title: "Pools & Jacuzzi",
           images: [
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Pool%20&%20Jacuzzi/_DSC1882-Color-Grade.jpg?updatedAt=1749651933855",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Pool-2.jpg",
               alt: "Swimming pool",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Pool%20&%20Jacuzzi/_DSC1889-Color-Grade.jpg?updatedAt=1749651933575",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1922-Color-grade.jpg",
               alt: "Jacuzzi area",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Pool%20&%20Jacuzzi/_DSC1922-Color-grade.jpg?updatedAt=1749651933384",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1889-Color-Grade.jpg",
               alt: "Pool deck",
             },
           ],
@@ -224,7 +224,7 @@ const GalleryPage = () => {
             //   alt: "Wellness area",
             // },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Spa%20etc/_DSC1696-Color-Grade.jpg?updatedAt=1749651504920",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1632.jpg",
               alt: "Wellness area",
             },
             // {
@@ -232,7 +232,7 @@ const GalleryPage = () => {
             //   alt: "Wellness area",
             // },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Spa%20etc/_DSC1675-Color-Grade.jpg?updatedAt=1749651504790",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1619-Color-Grade.jpg",
               alt: "Wellness area",
             },
             // {
@@ -244,7 +244,7 @@ const GalleryPage = () => {
             //   alt: "Wellness area",
             // },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Spa%20etc/_DSC1619-Color-Grade.jpg?updatedAt=1749651504610",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1696-Color-Grade.jpg",
               alt: "Wellness area",
             },
             // {
@@ -252,7 +252,7 @@ const GalleryPage = () => {
             //   alt: "Wellness area",
             // },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Spa%20etc/_DSC1632.JPG?updatedAt=1749651504436",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1675-Color-Grade.jpg",
               alt: "Wellness area",
             },
           ],
@@ -261,15 +261,15 @@ const GalleryPage = () => {
           title: "Medicare",
           images: [
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Medical%20Care/_DSC6806-Color-Grade.jpg?updatedAt=1749648877853",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6800-Color-Grade.jpg",
               alt: "Medical facility",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Medical%20Care/_DSC6800-Color-Grade%20(2).jpg?updatedAt=1749648834965",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6796-Color-Grade.jpg",
               alt: "Healthcare room",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Medical%20Care/_DSC6796-Color-Grade.jpg?updatedAt=1749647941477",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC6806-Color-Grade.jpg",
               alt: "Medical equipment",
             },
           ],
@@ -278,48 +278,48 @@ const GalleryPage = () => {
           title: "Restaurant",
           images: [
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1299-Color-Grade.jpg?updatedAt=1749650675113",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1269-Color-Grade.jpg",
               alt: "Restaurant interior",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1269-Color-Grade.jpg?updatedAt=1749650675055",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1302-Color-Grade.jpg",
               alt: "Fine dining",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1253-Color-Grade.jpg?updatedAt=1749650674983",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1259-Color-Grade.jpg",
               alt: "Restaurant seating",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1259-Color-Grade.jpg?updatedAt=1749650674673",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1311-Color-Grade.jpg",
               alt: "Restaurant seating",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1302-Color-Grade.jpg?updatedAt=1749650674281",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1299-Color-Grade.jpg",
               alt: "Restaurant seating",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1311-Color-Grade.jpg?updatedAt=1749650673944",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1253-Color-Grade.jpg",
               alt: "Restaurant seating",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1774.JPG?updatedAt=1749651008020",
-              alt: "Restaurant seating",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1824.jpg",
+              alt: "Fine Dining",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1788.JPG?updatedAt=1749651007895",
-              alt: "Restaurant seating",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1763.jpg",
+              alt: "Fine Dining",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1750.JPG?updatedAt=1749651008052",
-              alt: "Restaurant seating",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1788.jpg",
+              alt: "Fine Dining",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1763.JPG?updatedAt=1749651008089",
-              alt: "Restaurant seating",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1774.jpg",
+              alt: "Fine Dining",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Restaurant/_DSC1824.JPG?updatedAt=1749651010634",
-              alt: "Restaurant seating",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1750.jpg",
+              alt: "Fine Dining",
             },
           ],
         },
@@ -327,15 +327,15 @@ const GalleryPage = () => {
           title: "Private Dining",
           images: [
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Private%20Dining/_DSC1837-Color-Grade.jpg?updatedAt=1749652467674",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1330-Color-Grade.jpg",
               alt: "Dining area",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Private%20Dining/_DSC1854-Color-Grade.jpg?updatedAt=1749652467564",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1854-Color-Grade.jpg",
               alt: "Community dining",
             },
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Private%20Dining/_DSC1330-Color-Grade.jpg?updatedAt=1749652467367",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1837-Color-Grade.jpg",
               alt: "Community dining",
             },
           ],
@@ -344,7 +344,7 @@ const GalleryPage = () => {
           title: "Pool Table",
           images: [
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Pool%20table/Screenshot%202025-06-06%20180147.png?updatedAt=1749652376775",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/Highlights.jpg",
               alt: "Pool table area",
             },
             // {
@@ -361,7 +361,7 @@ const GalleryPage = () => {
           title: "Gym",
           images: [
             {
-              src: "https://ik.imagekit.io/sjuj0rpud/Eden%20Gallery/Gallery/Gym%20/_DSC1215-Color-Grade.jpg?updatedAt=1749652581640",
+              src: "https://ik.imagekit.io/sxe8qsgazl/edenwellness/_DSC1215-Color-Grade.jpg",
               alt: "Main gym area",
             },
             // {
